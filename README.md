@@ -27,7 +27,7 @@
 ## Technologies  
 * HTML5
 * CSS3
-* JavaScriot ES6
+* JavaScript ES6
 
 ---
 
