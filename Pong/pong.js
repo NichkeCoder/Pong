@@ -43,10 +43,10 @@ function drawCircle(x, y, r, color) {
 // draws score text
 function drawText(text, color) {
     context.fillStyle = color;
-    context.font = "700 20em fantasy";
+    context.font = "700 10em Poppins";
     context.textBaseline = 'middle';
     context.textAlign = "center"; 
-    context.fillText(text, canvas.width / 2, canvas.height / 2);
+    context.fillText(text, canvas.width / 2, canvas.height / 2 + 20);
 }
 
 // updates canvas looks
