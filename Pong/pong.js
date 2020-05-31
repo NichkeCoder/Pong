@@ -10,7 +10,7 @@ let colliding = false;
 const player = {
     x : 25,
     y : canvas.height / 2 - 80 / 2,
-    width: 10,
+    width: 15,
     height: 80,
     color: "#96031A",
 }
@@ -18,7 +18,7 @@ const player = {
 const ball = {
     x : canvas.width / 2 - 100,
     y : canvas.width / 2,
-    radius: 10,
+    radius: 12,
     speed: 4,
     velX: 4,
     velY: 4,
